@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import canvasLogo from "@/assests/logo.jpg";
-
 export const metadata: Metadata = {
   title: "Canvas Studio",
   description: "Canvas Studio",
