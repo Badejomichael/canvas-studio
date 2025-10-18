@@ -3,13 +3,13 @@ import React, { useEffect, useRef } from "react";
 import { FiDownload } from "react-icons/fi"; // <-- new import
 
 export type TraitSet = {
-  background: string;
-  body: string;
-  hair: string;
-  bandana: string;
-  jacket: string;
-  grin: string;
-  accessory: string;
+  background: string | null;
+  body: string | null;
+  hair: string | null;
+  bandana: string | null;
+  jacket: string | null;
+  grin: string | null;
+  accessory: string | null;
 };
 
 type Props = {
@@ -114,3 +114,4 @@ export default function PreviewCanvas({ size = 512, traits, className }: Props) 
     </div>
   );
 }
+
