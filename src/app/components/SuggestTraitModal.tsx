@@ -21,7 +21,7 @@ export default function SuggestTraitModal({ isOpen, onClose }: { isOpen: boolean
     setIsSubmitting(true);
 
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbzFrLZyTmLgAR1ELbElQlHMmJ_d86WShBvlafRXiY40ymokyv2ZI3naAJ_vXCa0H-Wb/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbzxsi0DoCpqG3MZ9WpE3jDn5lXb9unXSsYzF00O8_-QPEoSmtWsNq6D8f6E8Fc0psSL/exec", {
         method: "POST",
         body: JSON.stringify(formData),
       });
@@ -136,5 +136,6 @@ export default function SuggestTraitModal({ isOpen, onClose }: { isOpen: boolean
     </AnimatePresence>
   );
 }
+
 
 
