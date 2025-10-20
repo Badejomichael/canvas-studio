@@ -3,7 +3,7 @@
 import React, { useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { FiDownload } from "react-icons/fi"; // ⬅️ Icon for Mint button
+import { FiDownload } from "react-icons/fi";
 
 import SuggestTraitModal from "@/app/components/SuggestTraitModal";
 
@@ -403,4 +403,5 @@ export default function StudioPage() {
       <SuggestTraitModal isOpen={open} onClose={() => setOpen(false)} />
     </motion.div>
   );
+
 }
