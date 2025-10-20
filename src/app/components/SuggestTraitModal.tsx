@@ -136,3 +136,4 @@ export default function SuggestTraitModal({ isOpen, onClose }: { isOpen: boolean
     </AnimatePresence>
   );
 }
+
