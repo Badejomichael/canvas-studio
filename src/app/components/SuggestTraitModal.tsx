@@ -94,7 +94,6 @@ export default function SuggestTraitModal({ isOpen, onClose }: { isOpen: boolean
                   <option>Base</option>
                   <option>Hair</option>
                   <option>Accessory</option>
-                  <option>Expression</option>
                   <option>Other</option>
                 </select>
               </div>
@@ -137,3 +136,4 @@ export default function SuggestTraitModal({ isOpen, onClose }: { isOpen: boolean
     </AnimatePresence>
   );
 }
+
