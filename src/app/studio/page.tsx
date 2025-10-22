@@ -145,7 +145,6 @@ export default function StudioPage() {
 
   const [openCategory, setOpenCategory] = useState<CategoryKey | null>("backgrounds");
 
-  const SUGGEST_FORM_URL = "https://forms.gle/YOUR_GOOGLE_FORM_LINK";
 
   function selectTrait(category: CategoryKey, filename: string) {
     setSelected((s) => ({ ...s, [category]: filename }));
@@ -404,4 +403,5 @@ export default function StudioPage() {
       <SuggestTraitModal isOpen={open} onClose={() => setOpen(false)} />
     </motion.div>
   );
+
 }
